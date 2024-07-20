@@ -1,0 +1,533 @@
+{
+  "gigs": [
+    {
+      "id": 1,
+      "day": "Sat",
+      "date": "20 Jul, 2024",
+      "artist": "Paul Richards and John Grant",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The Shacklewell Arms",
+      "location": "London"
+    },
+    {
+      "id": 2,
+      "day": "Sun",
+      "date": "4 Aug, 2024",
+      "artist": "Glitterbox, Flight Facilities, Horse Meat Disco, John Morales, and Mousse T.",
+      "type": [
+        "Club"
+      ],
+      "venue": "Hï Ibiza",
+      "location": "Ibiza"
+    },
+    {
+      "id": 3,
+      "day": "Wed",
+      "date": "7 Aug, 2024",
+      "artist": "George Clanton and Crimewave",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Village Underground",
+      "location": "London"
+    },
+    {
+      "id": 4,
+      "day": "Thu",
+      "date": "8 Aug, 2024",
+      "artist": "Arrested Development",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Cambridge Junction",
+      "location": "Cambridge"
+    },
+    {
+      "id": 5,
+      "day": "Sat",
+      "date": "17 Aug, 2024",
+      "artist": "All Points East 2024 - Nas, Flying Lotus, Lianne La Havas, Loyle Carner, André 3000, Sainté, Ezra Collective, and Cymande",
+      "type": [
+        "One-Day Festival"
+      ],
+      "venue": "Victoria Park",
+      "location": "London",
+      "added": {
+        "name": "Simon",
+        "date": "2024-07-20"
+      },
+      "interested": [
+        {
+          "name": "Miller",
+          "initials": "AM",
+          "interest_level": "interested",
+          "date": "2024-07-20"
+        },
+        {
+          "name": "Simon",
+          "initials": "SG",
+          "interest_level": "going",
+          "date": "2024-07-20"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "day": "Wed",
+      "date": "21 Aug, 2024",
+      "artist": "Neil Frances",
+      "type": [
+        "Gig"
+      ],
+      "venue": "HERE at Outernet",
+      "location": "London"
+    },
+    {
+      "id": 7,
+      "day": "Fri",
+      "date": "23 Aug, 2024",
+      "artist": "All Points East 2024 - Pixies, LCD Soundsystem, Eyedress, Floating Points, Jai Paul, Nation of Language, Jockstrap, and Sofia Kourtesis",
+      "type": [
+        "One-Day Festival"
+      ],
+      "venue": "Victoria Park",
+      "location": "London"
+    },
+    {
+      "id": 8,
+      "day": "Sat",
+      "date": "24 Aug, 2024",
+      "artist": "RALLY 2024 - Mount Kimbie, Nilfer Yanya, Actress, Alabaster DePlume, James Holden, bar italia, Sorry, and Armand Hammer",
+      "type": [
+        "One-Day Festival"
+      ],
+      "venue": "Southwark Park",
+      "location": "London"
+    },
+    {
+      "id": 9,
+      "day": "Sun",
+      "date": "25 Aug, 2024",
+      "artist": "All Points East 2024 - Death Cab for Cutie, Phoenix, The Decemberists, Yo La Tengo, The Postal Service, Gossip, Everything Everything, and Sleater-Kinney",
+      "type": [
+        "One-Day Festival"
+      ],
+      "venue": "Victoria Park",
+      "location": "London"
+    },
+    {
+      "id": 10,
+      "day": "Tue",
+      "date": "27 Aug, 2024",
+      "artist": "Bleachers",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Academy Brixton",
+      "location": "London"
+    },
+    {
+      "id": 11,
+      "day": "Thu",
+      "date": "29 Aug, 2024",
+      "artist": "CANCELED: White Reaper",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Junction 2",
+      "location": "Cambridge"
+    },
+    {
+      "id": 12,
+      "day": "Mon",
+      "date": "2 Sept, 2024",
+      "artist": "Lime Cordiale, Coterie, and Great Gable",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Shepherds Bush Empire",
+      "location": "London"
+    },
+    {
+      "id": 13,
+      "day": "Sat",
+      "date": "7 Sept, 2024",
+      "artist": "Crazy P",
+      "type": "Gig/Club Night",
+      "venue": "Pikes Hotel",
+      "location": "Ibiza"
+    },
+    {
+      "id": 14,
+      "day": "Thu",
+      "date": "12 Sept, 2024",
+      "artist": "Jungle",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The O2",
+      "location": "London"
+    },
+    {
+      "id": 15,
+      "day": "Wed",
+      "date": "25 Sept, 2024",
+      "artist": "Jamie xx",
+      "type": "Gig/Club Night",
+      "venue": "Alexandra Palace",
+      "location": "London"
+    },
+    {
+      "id": 16,
+      "day": "Thu",
+      "date": "26 Sept, 2024",
+      "artist": "Jamie xx",
+      "type": "Gig/Club Night",
+      "venue": "Alexandra Palace",
+      "location": "London"
+    },
+    {
+      "id": 17,
+      "day": "Fri",
+      "date": "27 Sept, 2024",
+      "artist": "Mystery Jets",
+      "type": [
+        "Gig"
+      ],
+      "venue": "EartH",
+      "location": "London"
+    },
+    {
+      "id": 18,
+      "day": "Thu",
+      "date": "3 Oct, 2024",
+      "artist": "Real Estate",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Hackney Church",
+      "location": "London"
+    },
+    {
+      "id": 19,
+      "day": "Fri",
+      "date": "4 Oct, 2024",
+      "artist": "Slowdive",
+      "type": [
+        "Gig"
+      ],
+      "venue": "EartH",
+      "location": "London"
+    },
+    {
+      "id": 20,
+      "day": "Sat",
+      "date": "5 Oct, 2024",
+      "artist": "Crazy P",
+      "type": "Gig/Club Night",
+      "venue": "Pikes Hotel",
+      "location": "Ibiza"
+    },
+    {
+      "id": 21,
+      "day": "Tue",
+      "date": "15 Oct, 2024",
+      "artist": "Video Age",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The Lexington",
+      "location": "London"
+    },
+    {
+      "id": 22,
+      "day": "Fri",
+      "date": "18 Oct, 2024",
+      "artist": "John Grant and big special",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Hackney Church",
+      "location": "London"
+    },
+    {
+      "id": 23,
+      "day": "Mon",
+      "date": "21 Oct, 2024",
+      "artist": "BODEGA",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Cambridge Junction",
+      "location": "Cambridge"
+    },
+    {
+      "id": 24,
+      "day": "Thu",
+      "date": "24 Oct, 2024",
+      "artist": "BODEGA",
+      "type": [
+        "Gig"
+      ],
+      "venue": "EartH",
+      "location": "London"
+    },
+    {
+      "id": 25,
+      "day": "Fri",
+      "date": "8 Nov, 2024",
+      "artist": "OKAY KAYA",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Village Underground",
+      "location": "London"
+    },
+    {
+      "id": 26,
+      "day": "Tue",
+      "date": "12 Nov, 2024",
+      "artist": "Cigarettes After Sex",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The O2",
+      "location": "London"
+    },
+    {
+      "id": 27,
+      "day": "Wed",
+      "date": "13 Nov, 2024",
+      "artist": "Cigarettes After Sex",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The O2",
+      "location": "London"
+    },
+    {
+      "id": 28,
+      "day": "Wed",
+      "date": "20 Nov, 2024",
+      "artist": "Khruangbin",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Eventim Apollo",
+      "location": "London"
+    },
+    {
+      "id": 29,
+      "day": "Thu",
+      "date": "21 Nov, 2024",
+      "artist": "W. H. Lung",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Islington Assembly Hall",
+      "location": "London"
+    },
+    {
+      "id": 30,
+      "day": "Sat",
+      "date": "23 Nov, 2024",
+      "artist": "Billy Nomates",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Bedford Esquires",
+      "location": "Bedford"
+    },
+    {
+      "id": 31,
+      "day": "Tue",
+      "date": "26 Nov, 2024",
+      "artist": "Lime Garden",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Scala",
+      "location": "London"
+    },
+    {
+      "id": 32,
+      "day": "Wed",
+      "date": "27 Nov, 2024",
+      "artist": "Royel Otis",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Troxy",
+      "location": "London"
+    },
+    {
+      "id": 33,
+      "day": "Wed",
+      "date": "4 Dec, 2024",
+      "artist": "Billy Nomates",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Institute of Contemporary Arts (ICA)",
+      "location": "London"
+    },
+    {
+      "id": 34,
+      "day": "Wed",
+      "date": "4 Dec, 2024",
+      "artist": "Hippo Campus",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Shepherds Bush Empire",
+      "location": "London"
+    },
+    {
+      "id": 35,
+      "day": "Thu",
+      "date": "4 Dec, 2024",
+      "artist": "Vampire Weekend",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Eventim Apollo",
+      "location": "London"
+    },
+    {
+      "id": 36,
+      "day": "Tue",
+      "date": "5 Dec, 2024",
+      "artist": "Remi Wolf",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Academy Brixton",
+      "location": "London"
+    },
+    {
+      "id": 37,
+      "day": "Wed",
+      "date": "10 Dec, 2024",
+      "artist": "Vampire Weekend",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Academy Brixton",
+      "location": "London"
+    },
+    {
+      "id": 38,
+      "day": "Wed",
+      "date": "11 Dec, 2024",
+      "artist": "QUIVERS",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The Lexington",
+      "location": "London"
+    },
+    {
+      "id": 39,
+      "day": "Sat",
+      "date": "11 Dec, 2024",
+      "artist": "Vampire Weekend",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Academy Brixton",
+      "location": "London"
+    },
+    {
+      "id": 40,
+      "day": "Sat",
+      "date": "1 Feb, 2025",
+      "artist": "Ten Fé",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Lafayette",
+      "location": "London"
+    },
+    {
+      "id": 41,
+      "day": "Thu",
+      "date": "6 Feb, 2025",
+      "artist": "Caribou",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Roundhouse",
+      "location": "London"
+    },
+    {
+      "id": 42,
+      "day": "Fri",
+      "date": "7 Feb, 2025",
+      "artist": "Caribou",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Roundhouse",
+      "location": "London"
+    },
+    {
+      "id": 43,
+      "day": "Sat",
+      "date": "8 Feb, 2025",
+      "artist": "Caribou",
+      "type": [
+        "Gig"
+      ],
+      "venue": "Roundhouse",
+      "location": "London"
+    },
+    {
+      "id": 44,
+      "day": "Thu",
+      "date": "6 Mar, 2025",
+      "artist": "Porter Robinsonunderscores (US)",
+      "type": [
+        "Gig"
+      ],
+      "venue": "O2 Academy Brixton",
+      "location": "London"
+    },
+    {
+      "id": 45,
+      "day": "Fri",
+      "date": "18 Apr, 2025",
+      "artist": "Gabrielle",
+      "type": [
+        "Gig"
+      ],
+      "venue": "The O2",
+      "location": "London"
+    },
+    {
+      "id": "32d1",
+      "day": "",
+      "date": "",
+      "artist": "",
+      "type": [
+        "One-Day Festival",
+        "Full-On Festival"
+      ],
+      "venue": "",
+      "location": ""
+    },
+    {
+      "id": "5a6f",
+      "day": "",
+      "date": "",
+      "artist": "",
+      "type": [
+        "One-Day Festival",
+        "Full-On Festival"
+      ],
+      "venue": "",
+      "location": ""
+    }
+  ]
+}

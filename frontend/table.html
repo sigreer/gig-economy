@@ -1,0 +1,370 @@
+<!-- Table responsive wrapper -->
+<div class="overflow-x-auto bg-white dark:bg-neutral-700">
+
+    <!-- Search input -->
+    <div class="relative m-[2px] mb-3 mr-5 float-left">
+      <label for="inputSearch" class="sr-only">Search </label>
+      <input id="inputSearch" type="text" placeholder="Search..." class="block w-64 rounded-lg border dark:border-none dark:bg-neutral-600 py-2 pl-10 pr-4 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400" />
+      <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 transform">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 text-neutral-500 dark:text-neutral-200">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      </span>
+    </div>
+  
+    <!-- Filter -->
+    <div class="relative m-[2px] mb-3 float-right hidden sm:block">
+      <label for="inputFilter" class="sr-only">Filter</label>
+      <select id="inputFilter" class="block w-40 rounded-lg border dark:border-none dark:bg-neutral-600 p-2 text-sm focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400">
+        <option value="1" selected>This week</option>
+        <option value="2">This month</option>
+        <option value="3">Next month</option>
+        <option value="4">This Year</option>
+        <option value="5">Next Year</option>
+      </select>
+    </div>
+  
+    <!-- Table -->
+    <table class="min-w-full text-left text-sm whitespace-nowrap">
+  
+      <!-- Table head -->
+      <thead class="uppercase tracking-wider border-b-2 dark:border-neutral-600 border-t">
+        <tr>
+          <th scope="col" class="px-6 py-3 border-x dark:border-neutral-600">
+            Date
+          </th>
+          <th scope="col" class="px-6 py-3 border-x dark:border-neutral-600">
+            Event
+          </th>
+          <th scope="col" class="px-6 py-3 border-x dark:border-neutral-600">
+            Type
+          </th>
+          <th scope="col" class="px-6 py-3 border-x dark:border-neutral-600">
+            Venue
+          </th>
+          <th scope="col" class="px-6 py-3 border-x dark:border-neutral-600">
+            Location
+          </th>
+        </tr>
+      </thead>
+  
+      <!-- Table body -->
+      <tbody>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 20 Jul, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Paul Richards and John Grant</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The Shacklewell Arms</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sun 4 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Glitterbox, Flight Facilities, Horse Meat Disco, John Morales, and Mousse T.</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Club</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Hï Ibiza</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Ibiza</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 7 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">George Clanton and Crimewave</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Village Underground</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 8 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Arrested Development</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cambridge Junction</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cambridge</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 17 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">All Points East 2024 - Nas, Flying Lotus, Lianne La Havas, Loyle Carner, André 3000, Sainté, Ezra Collective, and Cymande</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">One-Day Festival</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Victoria Park</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 21 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Neil Frances</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">HERE at Outernet</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 23 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">All Points East 2024 - Pixies, LCD Soundsystem, Eyedress, Floating Points, Jai Paul, Nation of Language, Jockstrap, and Sofia Kourtesis</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">One-Day Festival</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Victoria Park</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 24 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">RALLY 2024 - Mount Kimbie, Nilüfer Yanya, Actress, Alabaster DePlume, James Holden, bar italia, Sorry, and Armand Hammer</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">One-Day Festival</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Southwark Park</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sun 25 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">All Points East 2024 - Death Cab for Cutie, Phoenix, The Decemberists, Yo La Tengo, The Postal Service, Gossip, Everything Everything, and Sleater-Kinney</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">One-Day Festival</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Victoria Park</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Tue 27 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Bleachers</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Academy Brixton</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 29 Aug, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">CANCELED: White Reaper</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Junction 2</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cambridge</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Mon 2 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Lime Cordiale, Coterie, and Great Gable</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Shepherds Bush Empire</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 7 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Crazy P</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig/Club Night</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Pikes Hotel</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Ibiza</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 12 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Jungle</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The O2</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 25 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Jamie xx</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig/Club Night</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Alexandra Palace</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 26 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Jamie xx</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig/Club Night</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Alexandra Palace</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 27 Sept, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Mystery Jets</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">EartH</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 3 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Real Estate</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Hackney Church</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 4 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Slowdive</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">EartH</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 5 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Crazy P</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig/Club Night</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Pikes Hotel</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Ibiza</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Tue 15 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Video Age</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The Lexington</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 18 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">John Grant and big special</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Hackney Church</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Mon 21 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">BODEGA</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cambridge Junction</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cambridge</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 24 Oct, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">BODEGA</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">EartH</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 8 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">OKAY KAYA</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Village Underground</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Tue 12 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cigarettes After Sex</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The O2</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 13 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Cigarettes After Sex</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The O2</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 20 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Khruangbin</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Eventim Apollo</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 21 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">W. H. Lung</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Islington Assembly Hall</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 23 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Billy Nomates</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Bedford Esquires</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Bedford</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Tue 26 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Lime Garden</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Scala</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 27 Nov, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Royel Otis</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Troxy</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 4 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Billy Nomates</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Institute of Contemporary Arts (ICA)</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 4 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Hippo Campus</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Shepherds Bush Empire</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 4 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Vampire Weekend</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Eventim Apollo</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Tue 5 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Remi Wolf</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Academy Brixton</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 10 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Vampire Weekend</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Academy Brixton</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Wed 11 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">QUIVERS</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The Lexington</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 11 Dec, 2024</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Vampire Weekend</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Academy Brixton</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 1 Feb, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Ten Fé</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Lafayette</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 6 Feb, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Caribou</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Roundhouse</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 7 Feb, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Caribou</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Roundhouse</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Sat 8 Feb, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Caribou</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Roundhouse</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Thu 6 Mar, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Porter Robinsonunderscores (US)</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">O2 Academy Brixton</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+        <tr class="border-b dark:border-neutral-600 hover:bg-neutral-100 dark:hover:bg-neutral-600">
+          <th scope="row" class="px-6 py-3 border-x dark:border-neutral-600">Fri 18 Apr, 2025</th>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gabrielle</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">Gig</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">The O2</td>
+          <td class="px-6 py-3 border-x dark:border-neutral-600">London</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
