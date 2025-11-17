@@ -1,0 +1,99 @@
+// Prisma Schema for Gig Economy Platform
+// This defines the database schema for PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User roles enum
+enum Role {
+  USER
+  ADMIN
+}
+
+// Interest level enum for tracking user engagement
+enum InterestLevel {
+  INTERESTED
+  VERY_INTERESTED
+  GOING
+}
+
+// User model - represents registered users
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  password  String   // Hashed with bcrypt
+  initials  String?  @db.VarChar(3)
+  role      Role     @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  gigsAdded  Gig[]       @relation("AddedBy")
+  interests  Interest[]
+
+  @@index([email])
+  @@map("users")
+}
+
+// Gig model - represents events/gigs/festivals
+model Gig {
+  id        String   @id @default(cuid())
+  artist    String
+  date      DateTime
+  day       String   // e.g., "Saturday"
+  venue     String
+  location  String
+  addedById String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  addedBy   User?      @relation("AddedBy", fields: [addedById], references: [id], onDelete: SetNull)
+  types     GigType[]
+  interests Interest[]
+
+  @@index([date])
+  @@index([artist])
+  @@index([location])
+  @@map("gigs")
+}
+
+// GigType model - many-to-many relationship for gig types
+// Allows a gig to have multiple types (e.g., Club, Festival, Concert)
+model GigType {
+  id    String @id @default(cuid())
+  gigId String
+  type  String // e.g., "Club", "Festival", "Concert", "Rave"
+
+  // Relations
+  gig Gig @relation(fields: [gigId], references: [id], onDelete: Cascade)
+
+  @@index([gigId])
+  @@map("gig_types")
+}
+
+// Interest model - tracks user interest in gigs
+model Interest {
+  id             String         @id @default(cuid())
+  gigId          String
+  userId         String
+  interestLevel  InterestLevel  @default(INTERESTED)
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  // Relations
+  gig  Gig  @relation(fields: [gigId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([gigId, userId]) // A user can only have one interest per gig
+  @@index([gigId])
+  @@index([userId])
+  @@map("interests")
+}
